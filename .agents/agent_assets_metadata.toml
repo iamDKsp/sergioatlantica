@@ -1,0 +1,14 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "HsSmEGNNFDMyT5MA5Uv9A"
+uri = "file://artifacts/mockup-sandbox/public/images/hero-products.png"
+type = "image"
+title = "hero products display"
+
+[[generated]]
+id = "76kXExtQUV4BU2gt9fNBU"
+uri = "file://artifacts/mockup-sandbox/public/images/product-placeholder.png"
+type = "image"
+title = "product placeholder supplement"

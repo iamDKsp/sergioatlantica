@@ -1,0 +1,355 @@
+Atue como um desenvolvedor front-end sênior, especialista em UI/UX, landing pages comerciais, e-commerce, responsividade e design moderno para marcas de saúde, beleza, bem-estar e perfumaria.
+
+Preciso que você desenvolva apenas o FRONT-END de um site institucional/comercial para um revendedor da Atlântica Natural. O objetivo é criar uma versão muito mais profissional, moderna, organizada e persuasiva do site atual de referência, mantendo a essência visual da marca, mas melhorando completamente a experiência do usuário, o design, a hierarquia das informações e a conversão.
+
+Não quero backend, painel administrativo, banco de dados ou checkout funcional neste momento. Quero apenas o front-end visual, navegável e responsivo, com botões de chamada para WhatsApp, simulação de produtos e seções comerciais bem estruturadas.
+
+Contexto do projeto:
+Sou revendedor da Atlântica Natural e quero criar minha própria versão do site, com foco em venda de produtos e também na captação de pessoas interessadas em montar o próprio negócio. A seção de oportunidade de negócio deve ter muito mais destaque do que no site atual e deve aparecer logo no início da página, antes da vitrine de produtos.
+
+A página deve transmitir:
+- Confiança
+- Saúde e bem-estar
+- Natureza
+- Oportunidade de crescimento financeiro
+- Profissionalismo
+- Modernidade
+- Clareza comercial
+- Fácil contato pelo WhatsApp
+- Sensação de marca forte e organizada
+
+Paleta de cores obrigatória:
+1. Verde Escuro — #00482B
+   Uso: textos de destaque, cabeçalho, rodapé, títulos fortes e elementos estruturais.
+
+2. Verde Médio/Folha — #518D3D
+   Uso: logo, botões secundários, ícones naturais, detalhes decorativos e chamadas relacionadas à natureza.
+
+3. Dourado/Ouro — #C79F52
+   Uso: destaques comerciais, selos, preços, ícones de conquista, oportunidades, cards premium e detalhes de autoridade.
+
+4. Branco/Off-White — #FFFFFF
+   Uso: fundo principal, áreas limpas, cards e textos informativos.
+
+5. Bege/Creme — #F2E8D0
+   Uso: fundos suaves, seções de produtos, blocos institucionais e áreas de acolhimento.
+
+Estilo visual desejado:
+Criar um layout premium, limpo, moderno e comercial. O site atual de referência tem muitos problemas visuais, como excesso de espaços em branco, banners grandes demais, elementos desalinhados, carrosséis pouco elegantes, rodapé simples demais e pouca valorização da oportunidade de negócio. Quero uma versão superior, mais parecida com uma landing page profissional de marca natural + e-commerce consultivo.
+
+O design deve ter:
+- Layout moderno e responsivo
+- Cabeçalho fixo/sticky
+- Menu claro e elegante
+- Botões com alto contraste
+- Cards bem alinhados
+- Carrosséis modernos
+- Imagens bem proporcionadas
+- Nada esticado, achatado ou borrado
+- Espaçamento confortável
+- Hierarquia visual forte
+- Títulos grandes e impactantes
+- Ícones elegantes
+- Bordas arredondadas
+- Sombras suaves
+- Animações leves ao rolar a página
+- Visual profissional em desktop e mobile
+
+Tecnologia sugerida:
+Use React com Tailwind CSS, ou estrutura equivalente caso o ambiente da IA utilize outro framework. O código deve ser limpo, componentizado e fácil de editar.
+
+Estrutura principal da página:
+
+1. Barra superior discreta
+Criar uma barra fina no topo com fundo verde escuro #00482B.
+Conteúdo sugerido:
+- À esquerda: ícones de redes sociais
+- Centro: “Sinta o frescor da natureza e o poder do ozônio em cada gota.”
+- À direita: “Atendimento pelo WhatsApp” ou “Obrigado por nos visitar!”
+
+2. Header / Menu principal
+Criar um cabeçalho moderno com fundo branco ou verde médio, dependendo da harmonia visual.
+Itens:
+- Logo à esquerda
+- Menu: Início, Monte seu Negócio, Produtos, Lançamentos, Sobre, Blog, Contato
+- Botão destacado: “Quero ser consultor”
+- Ícone de busca
+- Botão flutuante ou fixo para WhatsApp
+
+O menu deve ser sticky, permanecendo visível ao rolar a página.
+
+3. Hero principal — foco em oportunidade de negócio
+Esta deve ser a primeira seção de grande impacto.
+
+Título principal:
+“Monte seu negócio com produtos naturais, perfumaria e bem-estar”
+
+Subtítulo:
+“Tenha acesso a uma linha completa de produtos da Atlântica Natural e comece a vender com uma marca consolidada, catálogo diversificado e alto potencial de recompra.”
+
+Elementos visuais:
+- Imagem elegante de produtos ou mockup de frascos naturais
+- Fundo com textura leve em bege/creme #F2E8D0 ou gradiente suave entre branco e verde claro
+- Elementos decorativos de folhas
+- Selo visual: “Mais de 300 franquias pelo Brasil”
+- Selo visual: “Produtos com alta recorrência de compra”
+- Selo visual: “Venda online e presencial”
+
+Botões:
+- Botão principal em dourado #C79F52: “Quero montar meu negócio”
+- Botão secundário contornado em verde escuro: “Conhecer produtos”
+
+4. Seção de destaque: Por que ser revendedor?
+Criar uma seção logo após o hero, com cards comerciais.
+
+Título:
+“Uma oportunidade para vender produtos que as pessoas já procuram”
+
+Cards:
+- Saúde e bem-estar em alta
+- Perfumaria com grande potencial de venda
+- Produtos naturais e ozonizados
+- Possibilidade de venda pelo WhatsApp e redes sociais
+- Catálogo variado para diferentes públicos
+- Baixo atrito para começar
+
+Cada card deve ter ícone, título curto e descrição objetiva.
+
+5. Seção “Como funciona para começar”
+Criar uma linha do tempo ou cards em 4 passos:
+
+Passo 1:
+“Fale com um consultor”
+Descrição: “Entenda os produtos, margens, formas de venda e possibilidades para começar.”
+
+Passo 2:
+“Escolha seus produtos”
+Descrição: “Monte seu mix inicial com perfumaria, nutracêuticos, óleos ozonizados e lançamentos.”
+
+Passo 3:
+“Divulgue e venda”
+Descrição: “Use WhatsApp, Instagram, grupos e atendimento direto para apresentar os produtos.”
+
+Passo 4:
+“Cresça com recorrência”
+Descrição: “Trabalhe com produtos de uso contínuo e construa uma carteira de clientes.”
+
+Botão abaixo:
+“Quero começar agora pelo WhatsApp”
+
+6. Seção de números e autoridade
+Criar uma área com fundo verde escuro #00482B e textos brancos.
+
+Números sugeridos:
+- “+300 franquias pelo Brasil”
+- “+4 anos sem alteração do plano”
+- “+20 carros pagos”
+- “Produtos de saúde, beleza e bem-estar”
+- “Sistema de vendas online”
+
+Usar detalhes em dourado para os números.
+
+7. Seção de categorias de produtos
+Título:
+“Conheça nossas linhas de produtos”
+
+Categorias em cards:
+- Nutracêuticos
+- Óleos Ozonizados
+- Perfumaria
+- Cosméticos
+- Lançamentos
+- Kits para revenda
+
+Cada card deve ter imagem, descrição curta e botão “Ver produtos”.
+
+8. Seção de produtos em destaque
+Criar uma vitrine moderna com cards de produto.
+
+Cards devem conter:
+- Imagem do produto
+- Categoria
+- Nome do produto
+- Preço
+- Breve descrição
+- Botão “Comprar pelo WhatsApp”
+- Botão secundário “Ver detalhes”
+
+Produtos de exemplo:
+- Vital Life — R$153,98
+- Aloe Vera Gotas — R$119,98
+- VisionMax — R$119,98
+- Spray de Própolis e Mel — R$79,98
+- Magnésio Dimalato
+- Vitamina B12
+- Vitamina C
+- Óleo de Girassol Ozonizado
+
+Importante:
+O layout dos produtos precisa ser muito mais elegante do que o site atual. Usar grid responsivo, cards padronizados, imagens centralizadas e bom espaçamento.
+
+9. Seção de lançamentos
+Criar uma seção visual forte para lançamentos.
+
+Título:
+“Lançamentos Atlântica Natural”
+
+Usar cards maiores, com visual mais premium, fundo branco ou bege e detalhes em dourado.
+Produtos sugeridos:
+- Magnésio Dimalato
+- Vitamina B12
+- Vitamina C
+
+Adicionar botão:
+“Ver todos os lançamentos”
+
+10. Seção de perfumaria
+Como a perfumaria é um dos pontos fortes, criar uma seção própria.
+
+Título:
+“Linha de perfumaria para todos os estilos”
+
+Subtítulo:
+“Perfumes femininos e masculinos em versões de 15ml e 100ml, ideais para consumo próprio, presentes e revenda.”
+
+Criar divisão:
+- Feminino
+- Masculino
+
+Não precisa listar todos os nomes da referência, mas pode criar um bloco visual com exemplo de nomes e chamada para catálogo.
+
+Botão:
+“Solicitar catálogo de perfumes”
+
+11. Seção “Venda pelo WhatsApp”
+Criar uma seção persuasiva com fundo verde médio #518D3D.
+
+Título:
+“Transforme seu WhatsApp em uma vitrine de vendas”
+
+Texto:
+“Receba atendimento, tire dúvidas, solicite catálogo e comece a divulgar os produtos para seus clientes.”
+
+Botões:
+- “Entrar no grupo de consumidores”
+- “Entrar no grupo de consultores”
+- “Falar com consultor agora”
+
+12. Seção sobre a marca
+Título:
+“Sobre a Atlântica Natural”
+
+Texto:
+“Fundada em 2020, a Atlântica Natural nasceu com o propósito de oferecer produtos ligados à saúde, beleza, bem-estar e ozonioterapia. A marca vem crescendo no mercado nacional com um catálogo amplo e oportunidades para consumidores e consultores.”
+
+Criar visual mais premium, com imagem de natureza, folhas, frascos ou mapa do Brasil.
+
+13. Seção mapa / presença nacional
+Criar uma seção inspirada na referência do mapa do Brasil, mas com visual mais moderno.
+
+Título:
+“Uma marca presente em todo o Brasil”
+
+Subtítulo:
+“Sede em Mogi das Cruzes/SP e expansão por meio de franquias e consultores.”
+
+Usar um mapa ilustrativo ou placeholder de mapa.
+Colocar marcadores visuais e cards com:
+- Sede em Mogi das Cruzes/SP
+- Mais de 300 franquias pelo Brasil
+- DNA de multinível
+- Sistema de venda online
+
+14. Seção de depoimentos
+Criar uma seção com 3 cards de depoimentos fictícios, deixando claro que são placeholders editáveis.
+
+Exemplos:
+- “Comecei indicando para amigas e hoje tenho uma renda complementar com os produtos.”
+- “Os produtos têm ótima aceitação e ajudam muito na recompra.”
+- “O catálogo é variado e facilita vender para públicos diferentes.”
+
+15. FAQ
+Criar perguntas frequentes:
+
+Perguntas:
+- Como faço para comprar os produtos?
+- Como faço para ser consultor?
+- Preciso ter estoque?
+- Posso vender pelo WhatsApp?
+- Os produtos são enviados para todo o Brasil?
+- Existe catálogo disponível?
+
+16. Rodapé
+Criar rodapé muito mais bonito que o atual, com fundo verde escuro #00482B.
+
+Colunas:
+- Logo e breve descrição
+- Links úteis
+- Categorias de produtos
+- Atendimento
+- Newsletter
+
+Incluir:
+- WhatsApp
+- Instagram
+- E-mail
+- Política de privacidade
+- Termos de uso
+
+UX e conversão:
+O site deve ter CTAs espalhados estrategicamente:
+- “Quero montar meu negócio”
+- “Falar pelo WhatsApp”
+- “Solicitar catálogo”
+- “Ver produtos”
+- “Entrar no grupo de consultores”
+
+O botão de WhatsApp deve ficar flutuante no canto inferior direito em todas as páginas, com animação leve de pulso.
+
+Responsividade:
+O site precisa ser excelente no celular.
+No mobile:
+- Menu deve virar menu hambúrguer
+- Cards devem ficar em uma coluna
+- Hero deve ter título grande, mas bem adaptado
+- Botões devem ocupar largura confortável
+- Imagens não podem ficar cortadas ou distorcidas
+- Espaçamento deve ser reduzido, mas mantendo elegância
+
+SEO básico:
+Usar estrutura semântica:
+- h1 apenas no título principal
+- h2 nas seções
+- textos alternativos nas imagens
+- meta title e meta description se o framework permitir
+
+Sugestão de meta title:
+“Atlântica Natural | Produtos Naturais, Perfumaria e Oportunidade de Negócio”
+
+Sugestão de meta description:
+“Conheça produtos naturais, nutracêuticos, óleos ozonizados, perfumaria e uma oportunidade para montar seu negócio com a Atlântica Natural.”
+
+Animações:
+Usar animações leves, sem exagero:
+- Fade-in ao rolar
+- Hover nos cards
+- Botões com leve elevação
+- Carrossel suave
+- Transições elegantes
+
+Não fazer:
+- Não criar um layout poluído
+- Não usar excesso de verde forte
+- Não deixar banners gigantes tomando a página inteira sem estratégia
+- Não distorcer imagens
+- Não criar elementos desalinhados
+- Não deixar muito espaço vazio sem propósito
+- Não copiar o visual ruim da referência
+- Não criar backend
+- Não criar checkout real
+- Não usar cores fora da paleta, exceto tons neutros suaves quando necessário
+
+Resultado esperado:
+Criar um front-end completo, moderno, responsivo e muito mais profissional que a referência, usando a paleta de cores informada e priorizando a seção “Monte seu negócio” logo no início. A página deve funcionar como uma landing page comercial com vitrine de produtos, forte apelo para oportunidade de revenda e fácil contato pelo WhatsApp.
+
+O visual final deve parecer uma marca natural, confiável, comercialmente forte e preparada para vender tanto produtos quanto oportunidade de negócio.
