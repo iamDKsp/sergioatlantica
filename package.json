@@ -1,6 +1,7 @@
 {
   "name": "workspace",
   "version": "0.0.0",
+  "description": "Atlântica Natural Bauru client website",
   "license": "MIT",
   "scripts": {
     "preinstall": "",
