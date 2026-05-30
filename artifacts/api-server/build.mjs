@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { build as esbuild } from "esbuild";
 import esbuildPluginPino from "esbuild-plugin-pino";
 import { rm } from "node:fs/promises";
+import { execSync } from "node:child_process";
 
 // Plugins (e.g. 'esbuild-plugin-pino') may use `require` to resolve dependencies
 globalThis.require = createRequire(import.meta.url);
@@ -11,8 +12,24 @@ globalThis.require = createRequire(import.meta.url);
 const artifactDir = path.dirname(fileURLToPath(import.meta.url));
 
 async function buildAll() {
+  // Step 1: Build workspace library type declarations so that Vercel's TypeScript
+  // compilation step can resolve types for @workspace/api-zod and @workspace/db.
+  // These packages export raw .ts files (composite projects), so their .d.ts
+  // declarations must exist before tsc runs on this project.
+  const monorepoRoot = path.resolve(artifactDir, "../..");
+  // Use node to run tsc.js directly — works on both Windows and Linux (Vercel)
+  const tscJs = path.join(monorepoRoot, "node_modules", "typescript", "lib", "tsc.js");
+  console.log("Building workspace library type declarations...");
+  execSync(`node "${tscJs}" --build lib/api-zod lib/db`, {
+    stdio: "inherit",
+    cwd: monorepoRoot,
+  });
+  console.log("Library declarations built successfully.");
+
+  // Step 2: Clean and bundle with esbuild
   const distDir = path.resolve(artifactDir, "dist");
   await rm(distDir, { recursive: true, force: true });
+
 
   await esbuild({
     entryPoints: [path.resolve(artifactDir, "src/index.ts")],
