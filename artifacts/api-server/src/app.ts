@@ -31,4 +31,12 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", router);
 
+app.get("/", (_req, res) => {
+  res.json({
+    status: "healthy",
+    message: "Atlântica Natural Bauru API is running",
+  });
+});
+
 export default app;
+
